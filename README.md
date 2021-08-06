@@ -7,7 +7,7 @@ A three.js starter based on object-oriented programming (<a href="http://tomhsia
 <h3/>
 
 <p align="center">
-    
+<img width="1913" alt="Screen Shot 2021-08-06 at 2 16 39 PM" src="https://user-images.githubusercontent.com/70029654/128554639-a2246db3-d8a7-427d-a27b-7cf1427eb803.png">    
 </p>
 
 ## Table of Contents
