@@ -1,11 +1,13 @@
 <h1 align="center">ThreeJS Starter</h1>
 
+Forked from [TomHsiao1260](https://github.com/TomHsiao1260)
+
 <h3 align="center">
 A three.js starter based on object-oriented programming (<a href="http://tomhsiao1260.github.io/three-starter/" target="_blank">demo</a>).
 <h3/>
 
 <p align="center">
-    <img src="./static/cover.png" width="600px"/>
+    
 </p>
 
 ## Table of Contents
