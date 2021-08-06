@@ -88,6 +88,7 @@ export default class World {
       resources: this.resources,
       time: this.time,
       debug: this.debugFolder,
+      light: this.light,
     });
     this.container.add(this.spacestation.container);
   }

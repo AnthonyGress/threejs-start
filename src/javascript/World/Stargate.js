@@ -23,10 +23,16 @@ export default class Stargate {
     this.gltf.scene.scale.set(0.2, 0.2, 0.2);
     this.container.add(this.gltf.scene);
 
-    this.gltf.scene.position.set(-0.586, 0.5, -0.611);
+    this.gltf.scene.position.set(0.0, 0.298, 0.0);
 
     if (this.debug) {
       this.debugFolder.add(this.gltf.scene, "visible").name("visible");
+      this.debugFolder
+        .add(this.gltf.scene.position, "x")
+        .step(0.001)
+        .min(-2)
+        .max(2)
+        .name("positionX");
       this.debugFolder
         .add(this.gltf.scene.position, "y")
         .step(0.001)
@@ -40,11 +46,23 @@ export default class Stargate {
         .max(2)
         .name("positionZ");
       this.debugFolder
-        .add(this.gltf.scene.position, "x")
+        .add(this.gltf.scene.rotation, "x")
         .step(0.001)
-        .min(-2)
-        .max(2)
-        .name("positionX");
+        .min(-Math.PI)
+        .max(Math.PI)
+        .name("rotateX");
+      this.debugFolder
+        .add(this.gltf.scene.rotation, "y")
+        .step(0.001)
+        .min(-Math.PI)
+        .max(Math.PI)
+        .name("rotateY");
+      this.debugFolder
+        .add(this.gltf.scene.rotation, "z")
+        .step(0.001)
+        .min(-Math.PI)
+        .max(Math.PI)
+        .name("rotateZ");
     }
   }
 }
