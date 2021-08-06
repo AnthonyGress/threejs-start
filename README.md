@@ -1,6 +1,6 @@
 <h1 align="center">ThreeJS Starter</h1>
 
-<p align="center">Forked from [!TomHsiao1260](https://github.com/TomHsiao1260)<p>
+Forked from [TomHsiao1260](https://github.com/TomHsiao1260)
 
 <h3 align="center">
 A three.js starter based on object-oriented programming (<a href="http://tomhsiao1260.github.io/three-starter/" target="_blank">demo</a>).
