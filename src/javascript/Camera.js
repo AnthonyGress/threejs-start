@@ -62,6 +62,12 @@ export default class Camera {
       this.renderer.domElement
     );
     this.orbitControls.enableDamping = true;
+    this.orbitControls.autoRotate = true;
+    this.orbitControls.autoRotateSpeed = 1.1;
+    this.orbitControls.maxPolarAngle = Math.PI / 2.3;
+    this.orbitControls.minPolarAngle = 0.85;
+    this.orbitControls.minDistance = 0.3;
+    this.orbitControls.maxDistance = 1.8;
 
     this.time.on("tick", () => this.orbitControls.update());
   }
