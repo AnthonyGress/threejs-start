@@ -68,6 +68,7 @@ export default class Camera {
     this.orbitControls.minPolarAngle = 0.85;
     this.orbitControls.minDistance = 0.3;
     this.orbitControls.maxDistance = 1.8;
+    this.orbitControls.enablePan = false;
 
     this.time.on("tick", () => this.orbitControls.update());
   }
