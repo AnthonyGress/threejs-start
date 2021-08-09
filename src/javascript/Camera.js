@@ -69,6 +69,7 @@ export default class Camera {
     this.orbitControls.minDistance = 0.3;
     this.orbitControls.maxDistance = 1.8;
     this.orbitControls.enablePan = false;
+    this.orbitControls.rotateSpeed = 0.15;
 
     this.time.on("tick", () => this.orbitControls.update());
   }
