@@ -353,4 +353,4 @@ If you have any questions or somewhere I can do better, welcome to send an issue
 
 e-mail: tomtogo1260@gmail.com
     
-    <p style="align: center"> Forked from [TomHsiao1260](https://github.com/TomHsiao1260) </p>
+    <p "align=center"> Forked from [TomHsiao1260](https://github.com/TomHsiao1260) </p>
