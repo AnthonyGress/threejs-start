@@ -1,7 +1,5 @@
 <h1 align="center">ThreeJS Starter</h1>
 
-Forked from [TomHsiao1260](https://github.com/TomHsiao1260)
-
 <h3 align="center">
 A three.js starter based on object-oriented programming.
 <h3/>
@@ -354,3 +352,5 @@ Would be really appreciated if you are willing to give me a star 🎉
 If you have any questions or somewhere I can do better, welcome to send an issue or e-mail to me 🙏
 
 e-mail: tomtogo1260@gmail.com
+    
+    <p style="align: center"> Forked from [TomHsiao1260](https://github.com/TomHsiao1260) </p>
